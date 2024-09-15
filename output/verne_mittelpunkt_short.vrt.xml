@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <docId>verne_mittelpunkt_short.vrt</docId>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Jules</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NE</POS>
+            <NER>PERSON</NER>
+          </token>
+          <token id="2">
+            <word>Verne</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NE</POS>
+            <NER>PERSON</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (NUR (MPN (NE Jules) (NE Verne)))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Verne</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="2">Verne</governor>
+            <dependent idx="1">Jules</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Verne</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="2">Verne</governor>
+            <dependent idx="1">Jules</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Verne</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="2">Verne</governor>
+            <dependent idx="1">Jules</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Verne</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="2">Verne</governor>
+            <dependent idx="1">Jules</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Verne</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="2">Verne</governor>
+            <dependent idx="1">Jules</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Reise</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>nach</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>APPR</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>dem</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>ART</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>Mittelpunkt</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>der</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>ART</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>Erde</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>LOCATION</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (NUR (NP (NN Reise) (PP (APPR nach) (ART dem) (NN Mittelpunkt) (NP (ART der) (NN Erde)))))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Reise</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="2">nach</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="3">dem</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Reise</governor>
+            <dependent idx="4">Mittelpunkt</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Erde</governor>
+            <dependent idx="5">der</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="6">Erde</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Reise</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="2">nach</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="3">dem</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Reise</governor>
+            <dependent idx="4">Mittelpunkt</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Erde</governor>
+            <dependent idx="5">der</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="6">Erde</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Reise</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="2">nach</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="3">dem</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Reise</governor>
+            <dependent idx="4">Mittelpunkt</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Erde</governor>
+            <dependent idx="5">der</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="6">Erde</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Reise</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="2">nach</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="3">dem</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Reise</governor>
+            <dependent idx="4">Mittelpunkt</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Erde</governor>
+            <dependent idx="5">der</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="6">Erde</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Reise</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="2">nach</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="3">dem</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Reise</governor>
+            <dependent idx="4">Mittelpunkt</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Erde</governor>
+            <dependent idx="5">der</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Mittelpunkt</governor>
+            <dependent idx="6">Erde</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>Erstes</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>ADJA</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>Capitel</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>.</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>$.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (ADJA Erstes) (NN Capitel) ($. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Capitel</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Capitel</governor>
+            <dependent idx="1">Erstes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Capitel</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Capitel</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Capitel</governor>
+            <dependent idx="1">Erstes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Capitel</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Capitel</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Capitel</governor>
+            <dependent idx="1">Erstes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Capitel</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Capitel</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Capitel</governor>
+            <dependent idx="1">Erstes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Capitel</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Capitel</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Capitel</governor>
+            <dependent idx="1">Erstes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Capitel</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>Professor</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>TITLE</NER>
+          </token>
+          <token id="2">
+            <word>Lidenbrock</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NE</POS>
+            <NER>PERSON</NER>
+          </token>
+          <token id="3">
+            <word>.</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>$.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NN Professor) (NE Lidenbrock) ($. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Lidenbrock</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="2">Lidenbrock</governor>
+            <dependent idx="1">Professor</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Lidenbrock</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Lidenbrock</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="2">Lidenbrock</governor>
+            <dependent idx="1">Professor</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Lidenbrock</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Lidenbrock</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="2">Lidenbrock</governor>
+            <dependent idx="1">Professor</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Lidenbrock</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Lidenbrock</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="2">Lidenbrock</governor>
+            <dependent idx="1">Professor</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Lidenbrock</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Lidenbrock</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="2">Lidenbrock</governor>
+            <dependent idx="1">Professor</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Lidenbrock</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="5">
+        <tokens>
+          <token id="1">
+            <word>Am</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>APPRART</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>21.</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>ADJA</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>Mai</word>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>186.</word>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>CARD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>$,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>eines</word>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>ART</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>Sonntags</word>
+            <CharacterOffsetBegin>152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>162</CharacterOffsetEnd>
+            <POS>$,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>kam</word>
+            <CharacterOffsetBegin>163</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>VVFIN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>mein</word>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>PPOSAT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>Oheim</word>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>177</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>178</CharacterOffsetBegin>
+            <CharacterOffsetEnd>179</CharacterOffsetEnd>
+            <POS>$,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>der</word>
+            <CharacterOffsetBegin>180</CharacterOffsetBegin>
+            <CharacterOffsetEnd>183</CharacterOffsetEnd>
+            <POS>ART</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>Professor</word>
+            <CharacterOffsetBegin>184</CharacterOffsetBegin>
+            <CharacterOffsetEnd>193</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>TITLE</NER>
+          </token>
+          <token id="15">
+            <word>Lidenbrock</word>
+            <CharacterOffsetBegin>194</CharacterOffsetBegin>
+            <CharacterOffsetEnd>204</CharacterOffsetEnd>
+            <POS>NE</POS>
+            <NER>PERSON</NER>
+          </token>
+          <token id="16">
+            <word>,</word>
+            <CharacterOffsetBegin>205</CharacterOffsetBegin>
+            <CharacterOffsetEnd>206</CharacterOffsetEnd>
+            <POS>$,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="17">
+            <word>in</word>
+            <CharacterOffsetBegin>207</CharacterOffsetBegin>
+            <CharacterOffsetEnd>209</CharacterOffsetEnd>
+            <POS>APPR</POS>
+            <NER>O</NER>
+          </token>
+          <token id="18">
+            <word>hastiger</word>
+            <CharacterOffsetBegin>210</CharacterOffsetBegin>
+            <CharacterOffsetEnd>218</CharacterOffsetEnd>
+            <POS>ADJA</POS>
+            <NER>O</NER>
+          </token>
+          <token id="19">
+            <word>Eile</word>
+            <CharacterOffsetBegin>219</CharacterOffsetBegin>
+            <CharacterOffsetEnd>223</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="20">
+            <word>heim</word>
+            <CharacterOffsetBegin>224</CharacterOffsetBegin>
+            <CharacterOffsetEnd>228</CharacterOffsetEnd>
+            <POS>PTKVZ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="21">
+            <word>in</word>
+            <CharacterOffsetBegin>229</CharacterOffsetBegin>
+            <CharacterOffsetEnd>231</CharacterOffsetEnd>
+            <POS>APPR</POS>
+            <NER>O</NER>
+          </token>
+          <token id="22">
+            <word>sein</word>
+            <CharacterOffsetBegin>232</CharacterOffsetBegin>
+            <CharacterOffsetEnd>236</CharacterOffsetEnd>
+            <POS>PPOSAT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="23">
+            <word>kleines</word>
+            <CharacterOffsetBegin>237</CharacterOffsetBegin>
+            <CharacterOffsetEnd>244</CharacterOffsetEnd>
+            <POS>ADJA</POS>
+            <NER>O</NER>
+          </token>
+          <token id="24">
+            <word>Haus</word>
+            <CharacterOffsetBegin>245</CharacterOffsetBegin>
+            <CharacterOffsetEnd>249</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="25">
+            <word>,</word>
+            <CharacterOffsetBegin>250</CharacterOffsetBegin>
+            <CharacterOffsetEnd>251</CharacterOffsetEnd>
+            <POS>$,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="26">
+            <word>Königsstraße</word>
+            <CharacterOffsetBegin>252</CharacterOffsetBegin>
+            <CharacterOffsetEnd>264</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>LOCATION</NER>
+          </token>
+          <token id="27">
+            <word>19</word>
+            <CharacterOffsetBegin>265</CharacterOffsetBegin>
+            <CharacterOffsetEnd>267</CharacterOffsetEnd>
+            <POS>CARD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="28">
+            <word>,</word>
+            <CharacterOffsetBegin>268</CharacterOffsetBegin>
+            <CharacterOffsetEnd>269</CharacterOffsetEnd>
+            <POS>$,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="29">
+            <word>eine</word>
+            <CharacterOffsetBegin>270</CharacterOffsetBegin>
+            <CharacterOffsetEnd>274</CharacterOffsetEnd>
+            <POS>PIS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="30">
+            <word>der</word>
+            <CharacterOffsetBegin>275</CharacterOffsetBegin>
+            <CharacterOffsetEnd>278</CharacterOffsetEnd>
+            <POS>ART</POS>
+            <NER>O</NER>
+          </token>
+          <token id="31">
+            <word>ältesten</word>
+            <CharacterOffsetBegin>279</CharacterOffsetBegin>
+            <CharacterOffsetEnd>287</CharacterOffsetEnd>
+            <POS>ADJA</POS>
+            <NER>O</NER>
+          </token>
+          <token id="32">
+            <word>Straßen</word>
+            <CharacterOffsetBegin>288</CharacterOffsetBegin>
+            <CharacterOffsetEnd>295</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="33">
+            <word>des</word>
+            <CharacterOffsetBegin>296</CharacterOffsetBegin>
+            <CharacterOffsetEnd>299</CharacterOffsetEnd>
+            <POS>ART</POS>
+            <NER>O</NER>
+          </token>
+          <token id="34">
+            <word>alten</word>
+            <CharacterOffsetBegin>300</CharacterOffsetBegin>
+            <CharacterOffsetEnd>305</CharacterOffsetEnd>
+            <POS>ADJA</POS>
+            <NER>O</NER>
+          </token>
+          <token id="35">
+            <word>Stadtviertels</word>
+            <CharacterOffsetBegin>306</CharacterOffsetBegin>
+            <CharacterOffsetEnd>319</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="36">
+            <word>zu</word>
+            <CharacterOffsetBegin>320</CharacterOffsetBegin>
+            <CharacterOffsetEnd>322</CharacterOffsetEnd>
+            <POS>APPR</POS>
+            <NER>O</NER>
+          </token>
+          <token id="37">
+            <word>Hamburg</word>
+            <CharacterOffsetBegin>323</CharacterOffsetBegin>
+            <CharacterOffsetEnd>330</CharacterOffsetEnd>
+            <POS>NE</POS>
+            <NER>LOCATION</NER>
+          </token>
+          <token id="38">
+            <word>.</word>
+            <CharacterOffsetBegin>331</CharacterOffsetBegin>
+            <CharacterOffsetEnd>332</CharacterOffsetEnd>
+            <POS>$.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (APPRART Am) (ADJA 21.) (NN Mai) (CARD 186.)) ($, ,) (NP (ART eines) (NN Sonntags)) ($, ,) (VVFIN kam) (NP (PPOSAT mein) (NN Oheim) ($, ,) (NP (ART der) (NN Professor) (NE Lidenbrock))) ($, ,) (PP (APPR in) (ADJA hastiger) (NN Eile)) (PTKVZ heim) (PP (APPR in) (PPOSAT sein) (ADJA kleines) (NN Haus) ($, ,) (NP (NN Königsstraße) (CARD 19)) ($, ,) (S (NP (PIS eine) (NP (ART der) (ADJA ältesten) (NN Straßen))) (NP (ART des) (ADJA alten) (NN Stadtviertels)))) (PP (APPR zu) (NE Hamburg)) ($. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">kam</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="1">Am</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="2">21.</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="3">Mai</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">kam</governor>
+            <dependent idx="4">186.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">186.</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Sonntags</governor>
+            <dependent idx="6">eines</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">186.</governor>
+            <dependent idx="7">Sonntags</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">186.</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="10">mein</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">kam</governor>
+            <dependent idx="11">Oheim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Professor</governor>
+            <dependent idx="13">der</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="14">Professor</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="14">Professor</governor>
+            <dependent idx="15">Lidenbrock</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="16">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">Eile</governor>
+            <dependent idx="17">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">Eile</governor>
+            <dependent idx="18">hastiger</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="19">Eile</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="19">Eile</governor>
+            <dependent idx="20">heim</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Haus</governor>
+            <dependent idx="21">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">Haus</governor>
+            <dependent idx="22">sein</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">Haus</governor>
+            <dependent idx="23">kleines</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="20">heim</governor>
+            <dependent idx="24">Haus</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">Haus</governor>
+            <dependent idx="25">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="24">Haus</governor>
+            <dependent idx="26">Königsstraße</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="26">Königsstraße</governor>
+            <dependent idx="27">19</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">Haus</governor>
+            <dependent idx="28">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="24">Haus</governor>
+            <dependent idx="29">eine</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="30">der</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="31">ältesten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">eine</governor>
+            <dependent idx="32">Straßen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="35">Stadtviertels</governor>
+            <dependent idx="33">des</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="35">Stadtviertels</governor>
+            <dependent idx="34">alten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="35">Stadtviertels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="37">Hamburg</governor>
+            <dependent idx="36">zu</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="37">Hamburg</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">kam</governor>
+            <dependent idx="38">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">kam</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="1">Am</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="2">21.</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="3">Mai</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">kam</governor>
+            <dependent idx="4">186.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">186.</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Sonntags</governor>
+            <dependent idx="6">eines</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">186.</governor>
+            <dependent idx="7">Sonntags</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">186.</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="10">mein</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">kam</governor>
+            <dependent idx="11">Oheim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Professor</governor>
+            <dependent idx="13">der</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="14">Professor</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="14">Professor</governor>
+            <dependent idx="15">Lidenbrock</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="16">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">Eile</governor>
+            <dependent idx="17">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">Eile</governor>
+            <dependent idx="18">hastiger</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="19">Eile</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="19">Eile</governor>
+            <dependent idx="20">heim</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Haus</governor>
+            <dependent idx="21">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">Haus</governor>
+            <dependent idx="22">sein</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">Haus</governor>
+            <dependent idx="23">kleines</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="20">heim</governor>
+            <dependent idx="24">Haus</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">Haus</governor>
+            <dependent idx="25">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="24">Haus</governor>
+            <dependent idx="26">Königsstraße</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="26">Königsstraße</governor>
+            <dependent idx="27">19</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">Haus</governor>
+            <dependent idx="28">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="24">Haus</governor>
+            <dependent idx="29">eine</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="30">der</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="31">ältesten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">eine</governor>
+            <dependent idx="32">Straßen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="35">Stadtviertels</governor>
+            <dependent idx="33">des</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="35">Stadtviertels</governor>
+            <dependent idx="34">alten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="35">Stadtviertels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="37">Hamburg</governor>
+            <dependent idx="36">zu</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="37">Hamburg</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">kam</governor>
+            <dependent idx="38">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">kam</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="1">Am</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="2">21.</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="3">Mai</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">kam</governor>
+            <dependent idx="4">186.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">186.</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Sonntags</governor>
+            <dependent idx="6">eines</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">186.</governor>
+            <dependent idx="7">Sonntags</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">186.</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="10">mein</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">kam</governor>
+            <dependent idx="11">Oheim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Professor</governor>
+            <dependent idx="13">der</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="14">Professor</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="14">Professor</governor>
+            <dependent idx="15">Lidenbrock</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="16">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">Eile</governor>
+            <dependent idx="17">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">Eile</governor>
+            <dependent idx="18">hastiger</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="19">Eile</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="19">Eile</governor>
+            <dependent idx="20">heim</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Haus</governor>
+            <dependent idx="21">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">Haus</governor>
+            <dependent idx="22">sein</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">Haus</governor>
+            <dependent idx="23">kleines</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="20">heim</governor>
+            <dependent idx="24">Haus</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">Haus</governor>
+            <dependent idx="25">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="24">Haus</governor>
+            <dependent idx="26">Königsstraße</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="26">Königsstraße</governor>
+            <dependent idx="27">19</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">Haus</governor>
+            <dependent idx="28">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="24">Haus</governor>
+            <dependent idx="29">eine</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="30">der</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="31">ältesten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">eine</governor>
+            <dependent idx="32">Straßen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="35">Stadtviertels</governor>
+            <dependent idx="33">des</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="35">Stadtviertels</governor>
+            <dependent idx="34">alten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="35">Stadtviertels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="37">Hamburg</governor>
+            <dependent idx="36">zu</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="37">Hamburg</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">kam</governor>
+            <dependent idx="38">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">kam</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="1">Am</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="2">21.</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="3">Mai</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">kam</governor>
+            <dependent idx="4">186.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">186.</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Sonntags</governor>
+            <dependent idx="6">eines</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">186.</governor>
+            <dependent idx="7">Sonntags</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">186.</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="10">mein</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">kam</governor>
+            <dependent idx="11">Oheim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Professor</governor>
+            <dependent idx="13">der</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="14">Professor</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="14">Professor</governor>
+            <dependent idx="15">Lidenbrock</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="16">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">Eile</governor>
+            <dependent idx="17">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">Eile</governor>
+            <dependent idx="18">hastiger</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="19">Eile</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="19">Eile</governor>
+            <dependent idx="20">heim</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Haus</governor>
+            <dependent idx="21">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">Haus</governor>
+            <dependent idx="22">sein</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">Haus</governor>
+            <dependent idx="23">kleines</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="20">heim</governor>
+            <dependent idx="24">Haus</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">Haus</governor>
+            <dependent idx="25">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="24">Haus</governor>
+            <dependent idx="26">Königsstraße</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="26">Königsstraße</governor>
+            <dependent idx="27">19</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">Haus</governor>
+            <dependent idx="28">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="24">Haus</governor>
+            <dependent idx="29">eine</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="30">der</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="31">ältesten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">eine</governor>
+            <dependent idx="32">Straßen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="35">Stadtviertels</governor>
+            <dependent idx="33">des</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="35">Stadtviertels</governor>
+            <dependent idx="34">alten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="35">Stadtviertels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="37">Hamburg</governor>
+            <dependent idx="36">zu</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="37">Hamburg</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">kam</governor>
+            <dependent idx="38">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">kam</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="1">Am</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="2">21.</dependent>
+          </dep>
+          <dep type="name">
+            <governor idx="4">186.</governor>
+            <dependent idx="3">Mai</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">kam</governor>
+            <dependent idx="4">186.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">186.</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Sonntags</governor>
+            <dependent idx="6">eines</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">186.</governor>
+            <dependent idx="7">Sonntags</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">186.</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="10">mein</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">kam</governor>
+            <dependent idx="11">Oheim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Professor</governor>
+            <dependent idx="13">der</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="14">Professor</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="14">Professor</governor>
+            <dependent idx="15">Lidenbrock</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="16">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">Eile</governor>
+            <dependent idx="17">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">Eile</governor>
+            <dependent idx="18">hastiger</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="11">Oheim</governor>
+            <dependent idx="19">Eile</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="19">Eile</governor>
+            <dependent idx="20">heim</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Haus</governor>
+            <dependent idx="21">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">Haus</governor>
+            <dependent idx="22">sein</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">Haus</governor>
+            <dependent idx="23">kleines</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="20">heim</governor>
+            <dependent idx="24">Haus</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">Haus</governor>
+            <dependent idx="25">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="24">Haus</governor>
+            <dependent idx="26">Königsstraße</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="26">Königsstraße</governor>
+            <dependent idx="27">19</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">Haus</governor>
+            <dependent idx="28">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="24">Haus</governor>
+            <dependent idx="29">eine</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="30">der</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="31">ältesten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">eine</governor>
+            <dependent idx="32">Straßen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="35">Stadtviertels</governor>
+            <dependent idx="33">des</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="35">Stadtviertels</governor>
+            <dependent idx="34">alten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="35">Stadtviertels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="37">Hamburg</governor>
+            <dependent idx="36">zu</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="32">Straßen</governor>
+            <dependent idx="37">Hamburg</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">kam</governor>
+            <dependent idx="38">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
